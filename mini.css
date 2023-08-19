@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}       
+#alert{
+
+    position: relative;
+    display:none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    color: azure;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+/*.sign{
+    padding-left: 40px;
+}*/
+hr{
+    color: blue;
+}
+.login{
+    display: none;
+}                            
+.container{
+    height: 250px;
+    position: absolute;
+}
+
+.card{
+    width: 60%;
+    height: 300px;
+    margin: 19% auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 1px solid oldlace;
+    border-radius: 13px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+
+
+}
+
+input{
+    margin-top: 2%;
+    height: 60px;
+    width: 100%;
+    padding: 0 14px;
+    /* margin: 20px 0; */
+    font-size: 18px;
+    outline: none;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 10px;
+}
+
+
+span{
+    margin-top: 2%;
+    margin-left: 3px;
+}
+button{
+    margin-top: 3%;
+    background-color: #10adee !important;
+}
+
+.card2{
+    width: 60%;
+    height: 470px;
+    margin: 8% auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 1px solid oldlace;
+    border-radius: 13px;
+}
+.account{
+    margin: auto;
+    padding-top: 9px;
+}
+
